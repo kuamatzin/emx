@@ -11,7 +11,7 @@
                 <div class="card-body">
                     <div class="row">
                         <div class="col-md-6">
-                            <img src="/images/tlaxcala_nuevo.png" alt="" class="mx-auto d-block">
+                            <img src="/images/tlaxcala_nuevo.png" alt="" class="mx-auto d-block" height="126px">
                         </div>
                         <div class="col-md-6">
                             <img src="/images/siaa.png" alt="" height="126px" class="">
