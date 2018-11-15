@@ -172,5 +172,7 @@
 
 @endsection
 @section('scripts')
+<script src="https://cdnjs.cloudflare.com/ajax/libs/vue/1.0.14/vue.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/vue-resource/0.6.1/vue-resource.js"></script>
 <script src="{{ asset('/js/invitacion.js') }}"></script>
 @endsection
