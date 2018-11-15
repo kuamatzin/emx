@@ -1,4 +1,4 @@
-<h3>Requisiciones</h3>
+<h3>Obras</h3>
 <div class="table-responsive">
 	<table class="table table-bordered table-hover">
 		<thead>

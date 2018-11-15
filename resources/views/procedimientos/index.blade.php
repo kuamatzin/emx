@@ -5,10 +5,10 @@
 @section ('content2')
     <div class="row">
       <div class="col-md-12">
-        <h1><i class="fa fa-book"></i> Procedimientos</h1>
+        <h1><i class="fa fa-book"></i> Adjudicaciones</h1>
         @if(Auth::user()->isAMonitor() || Auth::user()->isAManager())
           <a href="{{ url('procedimientos/create')}}">
-            <button type="button" class="btn btn-primary">Crear procedimiento <i class="fa fa-plus"></i></button>
+            <button type="button" class="btn btn-primary">Registrar adjudicacion <i class="fa fa-plus"></i></button>
           </a>
 -        @endif
         <hr>

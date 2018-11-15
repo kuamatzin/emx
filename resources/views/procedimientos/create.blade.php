@@ -5,10 +5,10 @@
 	<div class="row">
 		<div class="col-md-10 col-md-offset-1">
 			<div class="panel panel-default">
-				<div class="panel-heading">Crear procedimiento</div>
+				<div class="panel-heading">Registrar adjudicación</div>
 				<div class="panel-body">
 					{!! Form::open(['url' => 'procedimientos', 'id' => 'form-procedimientos']) !!}
-						@include('procedimientos.form', ['ListCheck' => null, 'submitButtonText' => 'Crear Procedimiento'])
+						@include('procedimientos.form', ['ListCheck' => null, 'submitButtonText' => 'Registrar'])
 					{!! Form::close() !!}
 				</div>
 			</div>
