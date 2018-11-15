@@ -2,8 +2,8 @@
 @section ('content2')
   <div class="row">
     <div class="col-md-12">
-      <h1><i class="fa fa-truck"></i> Proveedores</h1>
-      <a href="{{ url('proveedores/create')}}"><button type="button" class="btn btn-primary">Crear provedor <i class="fa fa-plus"></i></button></a>
+      <h1><i class="fa fa-truck"></i> Empresas</h1>
+      <a href="{{ url('proveedores/create')}}"><button type="button" class="btn btn-primary">Registrar empresa <i class="fa fa-plus"></i></button></a>
       <hr>
       <input type="text" name="" id="search" class="form-control" value="" required="required" pattern="" title=""> <br>
       <div class="table-responsive">

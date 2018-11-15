@@ -4,11 +4,11 @@
       <div class="col-md-12">
         <div class="card card-default">
           <div class="card-header">
-            <h1><i class="fa fa-file"></i> Requisiciones</h1>
+            <h1><i class="fa fa-file"></i> Obras</h1>
           </div>
           <div class="card-body">
             
-          <a href="{{ url('requisiciones/create')}}"><button type="button" class="btn btn-primary">Crear requisicion <i class="fa fa-plus"></i></button></a>
+          <a href="{{ url('requisiciones/create')}}"><button type="button" class="btn btn-primary">Crear obra <i class="fa fa-plus"></i></button></a>
         <hr>
         <div class="row">
           <div class="col-md-2">

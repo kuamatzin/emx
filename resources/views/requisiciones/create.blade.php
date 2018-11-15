@@ -6,7 +6,7 @@
 		<div class="col-md-12">
 			<div class="card card-default">
 				<div class="card-header">
-					<h1>Crear requisicion</h1>
+					<h1>Crear obra</h1>
 				</div>
 				<div class="card-body">
 					{!! Form::open(['url' => 'requisiciones']) !!}

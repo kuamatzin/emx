@@ -47,7 +47,6 @@ class ProcedimientosController extends Controller {
 				dd($procedimiento->id);
 			}
 		}
-
 		
 		return view('procedimientos.index', compact('procedimientos', 'año'));
 	}

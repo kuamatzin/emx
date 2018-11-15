@@ -38,7 +38,7 @@
                 <div class="collapse navbar-collapse"
                 id="bs-example-navbar-collapse-1">
                     <ul class="nav navbar-nav">
-                    	 @if (!Auth::guest() && Auth::user()->isAManager())
+                    	@if (!Auth::guest() && Auth::user()->isAManager())
                         <li class="dropdown nav-item">	<a href="#" class="dropdown-toggle nav-link" data-toggle="dropdown" role="button"
                             aria-expanded="false">Programa Anual <i class="fa fa-file"></i><span class="caret"></span></a>
                             <ul
@@ -60,14 +60,14 @@
                             </ul>
                     </li>
                     <li class="dropdown nav-item"> <a href="#" class="dropdown-toggle nav-link" data-toggle="dropdown" role="button"
-                        aria-expanded="false">Requisiciones <i class="fa fa-file"></i><span class="caret"></span></a>
+                        aria-expanded="false">Obras <i class="fa fa-file"></i><span class="caret"></span></a>
                         <ul
                         class="dropdown-menu" role="menu">
                             <li class="dropdown-item"><a href="/requisiciones">Listado</a>
                             </li>
                             @if(Auth::user()->isAMonitor() || Auth::user()->isAManager())
                             <li
-                            class="dropdown-item"><a href="/requisiciones/create">Crear requisici&#xF3;n</a>
+                            class="dropdown-item"><a href="/requisiciones/create">Crear obra</a>
                     </li>
                     @endif
                 </ul>
@@ -93,26 +93,26 @@
                             </ul>
                     </li>
                     <li class="dropdown nav-item"> <a href="#" class="dropdown-toggle nav-link" data-toggle="dropdown" role="button"
-                        aria-expanded="false">Procedimientos <i class="fa fa-book"></i><span class="caret"></span></a>
+                        aria-expanded="false">Adjudicaciones <i class="fa fa-book"></i><span class="caret"></span></a>
                         <ul
                         class="dropdown-menu" role="menu">
-                            <li class="dropdown-item"><a href="/usuarios_procedimientos">Usuarios Procedimientos</a>
+                            <li class="dropdown-item"><a href="/usuarios_procedimientos">Usuarios Adjudicaciones</a>
                             </li>
                             <li class="dropdown-item"><a href="/procedimientos">Listado</a>
                             </li>
-                            <li class="dropdown-item"><a href="/procedimientos/create">Crear procedimiento</a>
+                            <li class="dropdown-item"><a href="/procedimientos/create">Crear adjudicación</a>
                             </li>
                             <li class="dropdown-item"><a href="/procedimientos/create">Dictamen T&#xE9;cnico</a>
                             </li>
                             </ul>
                     </li>
                     <li class="dropdown nav-item"> <a href="#" class="dropdown-toggle nav-link" data-toggle="dropdown" role="button"
-                        aria-expanded="false">Proveedores <i class="fa fa-truck"></i><span class="caret"></span></a>
+                        aria-expanded="false">Empresas <i class="fa fa-truck"></i><span class="caret"></span></a>
                         <ul
                         class="dropdown-menu" role="menu">
                             <li class="dropdown-item"><a href="/proveedores">Listado</a>
                             </li>
-                            <li class="dropdown-item"><a href="/proveedores/create">Crear proveedor</a>
+                            <li class="dropdown-item"><a href="/proveedores/create">Registrar empresa</a>
                             </li>
                             </ul>
                     </li>
@@ -152,7 +152,7 @@
                                     </ul>
                             </li>
                             <li class="dropdown nav-item"> <a href="#" class="dropdown-toggle nav-link" data-toggle="dropdown" role="button"
-                                aria-expanded="false">Procedimientos <i class="fa fa-book"></i><span class="caret"></span></a>
+                                aria-expanded="false">Adjudicaciones <i class="fa fa-book"></i><span class="caret"></span></a>
                                 <ul
                                 class="dropdown-menu" role="menu">
                                     <li class="dropdown-item"><a href="/usuarios_procedimientos">Usuarios Procedimientos</a>
@@ -166,7 +166,7 @@
                                     </ul>
                             </li>
                             <li class="dropdown nav-item"> <a href="#" class="dropdown-toggle nav-link" data-toggle="dropdown" role="button"
-                                aria-expanded="false">Proveedores <i class="fa fa-truck"></i><span class="caret"></span></a>
+                                aria-expanded="false">Empresas <i class="fa fa-truck"></i><span class="caret"></span></a>
                                 <ul
                                 class="dropdown-menu" role="menu">
                                     <li class="dropdown-item"><a href="/proveedores">Listado</a>
@@ -192,7 +192,7 @@
                                     </ul>
                                     </li>
                                     <li class="dropdown nav-item"> <a href="#" class="dropdown-toggle nav-link" data-toggle="dropdown" role="button"
-                                        aria-expanded="false">Requisiciones <i class="fa fa-file"></i><span class="caret"></span></a>
+                                        aria-expanded="false">Obras <i class="fa fa-file"></i><span class="caret"></span></a>
                                         <ul
                                         class="dropdown-menu" role="menu">
                                             <li class="dropdown-item"><a href="/requisiciones">Listado</a>
