@@ -36,16 +36,16 @@ class Requisicion extends Model {
 		'anio',
 		'consecutivo',
 		'regularizada',
-                        'anticipo',
-                        'lista_requisitos',
-                        'vigencia',
-                        'vigencia_especificacion',
-                        'dias_entrega_lunes_viernes',
-                        'dias_entrega_texto',
-                        'hora_entrega_inicial',
-                        'hora_entrega_final',
-                        'instalacion',
-                        'empacado'
+        'anticipo',
+        'lista_requisitos',
+        'vigencia',
+        'vigencia_especificacion',
+        'dias_entrega_lunes_viernes',
+        'dias_entrega_texto',
+        'hora_entrega_inicial',
+        'hora_entrega_final',
+        'instalacion',
+        'empacado'
 	];
 
 	//Permite tratar el campo como una instancia de Carbon

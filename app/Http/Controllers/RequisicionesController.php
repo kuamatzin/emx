@@ -117,7 +117,7 @@ class RequisicionesController extends Controller
         $requisicion->mes = $request->mes;
         $requisicion->anio = $request->anio;
         $requisicion->consecutivo = $request->consecutivo;
-        $requisicion->regularizada = $request->regularizada;
+        $requisicion->regularizada = $request->regularizada
         $requisicion->tipo_requisicion = $request->tipo_requisicion;
         $requisicion->status = $request->status;
         $requisicion->descripcion = $request->descripcion;
@@ -143,6 +143,7 @@ class RequisicionesController extends Controller
         $requisicion->vigencia = $request->vigencia == null ? 0 : 1;
         $requisicion->vigencia_especificacion = $request->vigencia_especificacion == null ? '' : $request->vigencia_especificacion;
         $requisicion->dias_entrega_lunes_viernes = $request->dias_entrega_lunes_viernes;
+        $requisicion->asignada = 0;
         $requisicion->dias_entrega_texto = $request->dias_entrega_texto == null ? '' : $request->dias_entrega_texto;
         $requisicion->hora_entrega_inicial = $request->hora_entrega_inicial == null ? '' : $request->hora_entrega_inicial;
         $requisicion->hora_entrega_final = $request->hora_entrega_final == null ? '' : $request->hora_entrega_final;

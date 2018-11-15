@@ -90,7 +90,7 @@
     </div>
     <div class="form-group col-md-4 {{ $errors->has('dias_entrega_lunes_viernes') ? ' has-error' : '' }}">
         {!! Form::label('dias_entrega_lunes_viernes', 'Dias de entrega') !!}
-        {!! Form::select('dias_entrega_lunes_viernes', ['Lunes-Viernes' => 'Lunes-Viernes', 'Otro' => 'Otro'], null, ['id' => 'dias_entrega_lunes_viernes', 'class' => 'form-control']) !!}
+        {!! Form::select('dias_entrega_lunes_viernes', ['Lunes-Viernes' => '1', 'Otro' => '0'], null, ['id' => 'dias_entrega_lunes_viernes', 'class' => 'form-control']) !!}
         <small class="text-danger">{{ $errors->first('dias_entrega_lunes_viernes') }}</small>
     </div>
 </div>
