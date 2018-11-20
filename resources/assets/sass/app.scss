@@ -14,3 +14,67 @@
   background-color: #fff;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
 }
+
+.oferta-ganadora {
+  background-color: #72C786;
+}
+.no-cotiza {
+  background-color: #F5DF95;
+}
+.no-cumple {
+  background-color: #DA955B;
+}
+.default-table thead {
+  background-color: #8DC9E8 !important;
+}
+.success-table thead {
+  background-color: #98E880 !important;
+}
+.cuadro {
+  display: inline-block;
+  width: 22px;
+  height: 12px;
+}
+.linea {
+  border-right: 2px solid black;
+}
+.proveedor {
+  text-transform: uppercase;
+}
+.tabla-totales {
+  background-color: #b9a69d;
+}
+.btn-licitantes {
+  color: #fff;
+  background-color: #F56052;
+  border-color: #E35B4C;
+}
+.btn-dictamen {
+  color: #fff;
+  background-color: #F5CA67;
+  border-color: #F5CC4A;
+}
+.btn-carga {
+  color: #fff;
+  background-color: #C056F5;
+  border-color: #B93DF5;
+}
+.btn-analisis {
+  color: #fff;
+  background-color: #A0DAE8;
+  border-color: #4EE0E8;
+}
+.checkbox {
+  position: relative;
+  display: block;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.browse .textContainer {
+  height: 430px;
+  line-height: 400px;
+}
+.textContainer h2 {
+  vertical-align: middle;
+  display: inline-block;
+}
