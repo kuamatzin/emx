@@ -11,6 +11,7 @@
         
         <link href="/css/app.css" rel="stylesheet">
         <meta name="google-site-verification" content="_K2lrUdI8pCClJtVvupYQtOBdwTnP2a6sh5WC6mUd2g">
+        <script src="https://use.fontawesome.com/67581c81f0.js"></script>
         @yield('styles')
         <!-- Fonts -->
         <!--<link href='//fonts.googleapis.com/css?family=Roboto:400,300' rel='stylesheet'
