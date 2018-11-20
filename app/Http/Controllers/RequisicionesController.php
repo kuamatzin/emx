@@ -117,7 +117,7 @@ class RequisicionesController extends Controller
         $requisicion->mes = $request->mes;
         $requisicion->anio = $request->anio;
         $requisicion->consecutivo = $request->consecutivo;
-        $requisicion->regularizada = $request->regularizada
+        $requisicion->regularizada = $request->regularizada;
         $requisicion->tipo_requisicion = $request->tipo_requisicion;
         $requisicion->status = $request->status;
         $requisicion->descripcion = $request->descripcion;
